@@ -22,16 +22,16 @@ An intelligent study partner recommendation system that uses Natural Language Pr
    ```
 
 2. Install dependencies:
-```bash
-pip install -r requirements.txt
-
-```
+   ```bash
+   pip install -r requirements.txt
+   
+   ```
 
 3. Run the application:
-```bash
-streamlit run app.py
-
-```
+   ```bash
+   streamlit run app.py
+   
+   ```
 
 ## 📄 Project Structure
 
