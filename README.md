@@ -33,7 +33,7 @@ An intelligent study partner recommendation system that uses Natural Language Pr
    
    ```
 
-## 📄 Project Structure
+## Project Structure
 
 * `app.py`: The main Streamlit web application.
 * `main.py`: Core matching logic and CLI version.
