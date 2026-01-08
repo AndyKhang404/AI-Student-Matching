@@ -45,7 +45,7 @@ docker build -t ai-student-matching .
 # We mount a local folder to the container's '/app/data'
 docker run -p 8080:8501 \
   -v ./data:/app/data \
-  streamlit-pro
+  ai-student-matching
 ```
 
 ## Project Structure
