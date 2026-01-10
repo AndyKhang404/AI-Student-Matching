@@ -37,13 +37,13 @@ An intelligent study partner recommendation system that uses Natural Language Pr
 
 1. Build the image:
 ```bash
-docker build -t ai-student-matching .
+docker build -t ai-student-matching:latest .
 ```
 
 2. Run the image (port 8080):
 ```bash
 # We mount a local folder to the container's '/app/data'
-docker run -p 8080:8501 -v ./data:/app/data ai-student-matching
+docker run -p 8080:8501 -v $(pwd)/data:/app/data ai-student-matching:latest
 ```
 
 ## Project Structure
